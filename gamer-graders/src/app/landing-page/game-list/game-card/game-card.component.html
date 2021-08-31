@@ -1,0 +1,10 @@
+<p-card header="{{card.name}}">
+    <div style="display: flex;">
+        <div style=" flex-grow: 1;">
+            ~~~Some stuff here~~~
+        </div>
+        <div style="word-wrap: break-word; width: 100px; flex-grow: 0;">
+            {{card.date | date: 'shortDate'}}
+        </div>
+    </div>
+</p-card>

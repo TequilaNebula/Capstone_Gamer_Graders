@@ -1,0 +1,26 @@
+<div class="content-section">
+  <div style="display: flex; justify-content: space-between">
+    <h1 class="p-text-normal">Gamer Graders</h1>
+    <div style="display: block">
+      <div>
+        <p-button label="Sign Up"></p-button>
+        <p-button label="Login" class="button-class"></p-button>
+      </div>
+      <span style="margin-top: 10px;" class="p-input-icon-left">
+        <i class="pi pi-search"></i>
+        <input type="text" pInputText placeholder="Search" />
+      </span>
+    </div>
+  </div>
+  <p-tabView>
+    <p-tabPanel header="Evaluations">
+      <app-game-list></app-game-list>
+    </p-tabPanel>
+    <p-tabPanel header="About">
+      <p>This is the about page</p>
+    </p-tabPanel>
+    <p-tabPanel header="Thanks">
+      <p>Thank you Ava for being the best sister(in-law) ever.</p>
+    </p-tabPanel>
+  </p-tabView>
+</div>
